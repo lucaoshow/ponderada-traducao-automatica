@@ -1,10 +1,9 @@
-
-# Neural Machine Translation with RNNs (Seq2Seq)
+# Tradução Automática com RNNs (Seq2Seq)
 
 Este projeto implementa um pipeline simples de tradução automática (inglês→francês) inspirado em D2L Seção 9.5.
 
 ## Conteúdo
-- `NMT_Seq2Seq_Colab.ipynb`: Notebook Colab com:
+- `Ponderada_Traducao_Automatica.ipynb`: Notebook Colab com:
   - Download e pré-processamento (ManyThings/Tatoeba, fra-eng.zip)
   - Tokenização e vocabulários com tokens especiais (<pad>, <bos>, <eos>, <unk>)
   - Truncamento/preenchimento e minibatches
@@ -13,7 +12,7 @@ Este projeto implementa um pipeline simples de tradução automática (inglês�
   - Experimento de tamanho de vocabulário variando `num_examples`
 
 ## Como executar (Colab)
-1. Abra o notebook no Google Colab e selecione GPU (opcional).
+1. Abra o notebook no Google Colab e selecione GPU (opcional, mas recomendado).
 2. Execute todas as células em ordem. O último bloco gera este README automaticamente.
 
 ## Resultados (resumo)
